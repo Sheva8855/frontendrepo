@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<h1>Шаурма и точка</h1>
+</head>
+<body>
+
+<img src="shaurma.png" width="200">
+
+<form action="" method="GET">
+
+<fieldset style="width:500px">
+<legend align="center"><b>Вид и размер</b></legend>
+<select name="sel1">
+<option disabled select>Вид лаваша</option>
+		<option value="1">Традиционная, средняя</option>
+		<option value="2">Традиционная, большая</option>
+		<option value="3">Острая, средняя</option>
+		<option value="4">Острая, большая</option>
+		</select>
+</fieldset><br>
+
+<fieldset style="width:500px">
+<legend align="center"><b>Мясо</b></legend>
+<select name="sel2">
+<option disabled select>Выберете мясо</option>
+		<option value="11">Курица</option>
+		<option value="12">Говядина</option>
+		<option value="13">Свинина</option>
+		</select>
+</fieldset><br>
+
+<fieldset style="width:500px">
+<legend align="center"><b>Соусы</b></legend>
+<label>Соус белый</label>
+<input type="checkbox" name="checkbox1" value="100"><br>
+<label>Кетчуп</label>
+<input type="checkbox" name="checkbox2" value="101"><br>
+<label>Горчица</label>
+<input type="checkbox" name="checkbox3" value="102"><br>
+</fieldset><br>
+
+<fieldset style="width:500px"><legend align="center"><b>Оплата</b></legend>
+<input type="radio" name="radio" value="11">Наличными<br>
+<input type="radio" name="radio" value="12">Картой<br>
+</fieldset>
+<br>
+<button type="submit"> Отправить заказ</button>        <button type="reset"> Очистить форму</button>
+</form>
+</body>
+</html>
